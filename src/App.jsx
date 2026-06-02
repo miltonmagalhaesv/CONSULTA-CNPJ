@@ -383,6 +383,8 @@ export default function App() {
             )}
           </div>
         )}
+
+        <Footer />
       </div>
     </main>
   );
@@ -1015,6 +1017,52 @@ function PrintStyles() {
         }
       `}
     </style>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="no-print mt-10 rounded-3xl border border-white/10 bg-white/[0.03] p-5 text-sm text-slate-400 shadow-xl md:p-6">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+        <div>
+          <p>
+            Desenvolvido por{" "}
+            <a
+              href="https://github.com/miltonmagalhaesv"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-white transition hover:text-indigo-300"
+            >
+              Milton Magalhães
+            </a>
+          </p>
+
+          <p className="mt-1 text-xs text-slate-500">
+            Consulta Empresa Brasil · React · Vite · Tailwind · Netlify
+          </p>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
+          <a
+            href="https://github.com/miltonmagalhaesv/CONSULTA-CNPJ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 font-semibold text-slate-200 transition hover:bg-white/10 hover:text-white"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/miltonmagalhaesv/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-indigo-400/20 bg-indigo-400/10 px-4 py-2 font-semibold text-indigo-200 transition hover:bg-indigo-400/20"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </footer>
   );
 }
 
