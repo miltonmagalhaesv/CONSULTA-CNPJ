@@ -73,8 +73,15 @@ A proposta é transformar uma consulta técnica de CNPJ em uma interface mais am
 
 A aplicação está publicada em:
 
-> Adicione aqui o link do Netlify
-> Exemplo: https://consulta-empresa-brasil.netlify.app
+[Consulta Empresa Brasil](https://consulta-empresa-brasil.netlify.app/)
+
+---
+
+## Status do projeto
+
+Projeto em desenvolvimento.
+
+A versão atual contempla a consulta individual de CNPJ, visualização dos dados cadastrais, cartão cadastral para impressão/PDF e exploração do JSON completo retornado pela API.
 
 ---
 
@@ -100,13 +107,13 @@ A aplicação está publicada em:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+git clone https://github.com/miltonmagalhaesv/CONSULTA-CNPJ.git
 ```
 
 Entre na pasta do projeto:
 
 ```bash
-cd NOME-DO-REPOSITORIO
+cd CONSULTA-CNPJ
 ```
 
 Instale as dependências:
@@ -138,7 +145,7 @@ npm run preview
 ## Estrutura do projeto
 
 ```text
-consulta-empresa-brasil/
+CONSULTA-CNPJ/
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -227,13 +234,13 @@ A ideia é criar ferramentas simples, úteis e escaláveis que resolvam problema
 Desenvolvido por **Milton Magalhães**.
 
 * GitHub: [@miltonmagalhaesv](https://github.com/miltonmagalhaesv)
-* LinkedIn: https://www.linkedin.com/in/miltonmagalhaesv/
+* LinkedIn: [Milton Magalhães](https://www.linkedin.com/in/miltonmagalhaesv/)
 * Projeto: Consulta Empresa Brasil
 
 ---
 
 ## Licença
 
-Este projeto está disponível para fins de estudo, demonstração e evolução.
+Este projeto está sob a licença MIT.
 
-Caso deseje, adicione uma licença formal como MIT, Apache 2.0 ou outra compatível com o objetivo do projeto.
+Você pode utilizar, estudar, modificar e evoluir este projeto, mantendo os devidos créditos ao autor.
